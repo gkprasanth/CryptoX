@@ -1,11 +1,11 @@
 import { Box, Image, Text } from "@chakra-ui/react";
 import React from "react";
-import btcSrc from "../assets/btc.png";
+import btcSrc from "../assets/btc (1).png";
 import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <Box bgColor={"blackAlpha.900"} w={"full"} h={"85vh"}>
+    <Box bgColor={"blackAlpha.900"} w={"full"} h={"89.8vh"}>
       <motion.div
         style={{
           height: "80vh",
@@ -35,7 +35,7 @@ const Home = () => {
         color={"whiteAlpha.700"}
         mt={"-20"}
       >
-        Xcrypto
+        CryptoX
       </Text>
     </Box>
   );
